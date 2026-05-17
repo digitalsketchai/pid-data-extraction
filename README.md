@@ -194,17 +194,6 @@ Full reference: [api.digitalsketch.ai/documentation](https://api.digitalsketch.a
 
 ---
 
-## GitHub Pages
-
-The included `index.html` is a standalone homepage that can be served as the project landing page.
-
-1. Push this repo to GitHub.
-2. In the repo, go to **Settings -> Pages**.
-3. Set **Source** to `Deploy from a branch`, select `main` and `/ (root)`, then save.
-4. Your homepage will be available at `https://<your-org>.github.io/<repo-name>/`.
-
----
-
 ## License
 
 (c) 2025 DigitalSketch.ai, Inc. All rights reserved.
