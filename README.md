@@ -6,7 +6,7 @@ P&amp;ID Data Extraction Python
 ## Python Sample Code for P&ID Digitization
 Extract structured data from P&ID drawings into JSON format using AI-powered document and drawing analysis.
 
-This sample Python client demonstrates how to upload images or multi-page PDF drawings, run a P&ID extraction pipeline, and save structured results as JSON output.
+This code runs a P&ID extraction pipeline, extracts PID symbols & associated data and saves extracted structured results as JSON output.
 
 The workflow supports automated extraction of equipment, line data, instruments, tags, annotations, and other engineering information from P&ID documents.
 
