@@ -1,35 +1,91 @@
 # pid-data-extraction
 P&amp;ID Data Extraction Python
 
-# DigitalSketch.ai - Python Sample Code
 
-Official Python sample code for the [DigitalSketch.ai](https://digitalsketch.ai) P&ID digitization API.
 
-This client uploads an image or multi-page PDF to the DigitalSketch API, runs the extraction pipeline, and saves structured predictions as JSON.
+## Python Sample Code for P&ID Digitization
+Extract structured data from P&ID drawings into JSON format using AI-powered document and drawing analysis.
 
-- Website: [digitalsketch.ai](https://digitalsketch.ai)
-- API base: [api.digitalsketch.ai](https://api.digitalsketch.ai)
-- API docs: [api.digitalsketch.ai/documentation](https://api.digitalsketch.ai/documentation)
-- Homepage (in this repo): open [`index.html`](./index.html) in a browser
+This sample Python client demonstrates how to upload images or multi-page PDF drawings, run a P&ID extraction pipeline, and save structured results as JSON output.
+
+The workflow supports automated extraction of equipment, line data, instruments, tags, annotations, and other engineering information from P&ID documents.
 
 ---
 
 ## Features
 
-- Single-image upload (PNG, JPG, JPEG, BMP) via base64
-- Multi-page PDF upload via multipart, with per-page processing
-- Polls PDF processing, pipeline run-id resolution, and pipeline status
-- Saves structured predictions per page as JSON in `output/`
-- All polling intervals and timeouts configurable via environment variables
+- Single-image upload support (PNG, JPG, JPEG, BMP)
+- Multi-page PDF processing
+- AI-based extraction and digitization pipeline
+- Automatic polling for processing and pipeline status
+- Structured JSON output generation per page
+- Configurable polling intervals and timeout settings via environment variables
+- Batch-friendly workflow for large engineering document sets
 
 ---
 
 ## Prerequisites
 
 - Python 3.8 or newer
-- A DigitalSketch.ai API key - sign up at [digitalsketch.ai](https://digitalsketch.ai)
+- Access to a compatible P&ID extraction API or AI processing service
+- API credentials or authentication token (if required)
 
 ---
+
+## Output
+
+The extraction pipeline generates structured JSON files containing detected engineering entities and relationships from the P&ID drawings.
+
+Typical extracted data may include:
+
+- Equipment tags
+- Instrumentation
+- Pipelines and connections
+- Valves
+- Process annotations
+- Symbols and labels
+- Metadata and page-level information
+
+Output files are saved in the `output/` directory.
+
+---
+
+## Typical Workflow
+
+1. Upload image or PDF drawings
+2. Start extraction pipeline
+3. Monitor processing status
+4. Retrieve structured predictions
+5. Save results as JSON
+
+---
+
+## Supported File Types
+
+- PNG
+- JPG / JPEG
+- BMP
+- PDF (multi-page supported)
+
+---
+
+## Use Cases
+
+- Engineering document digitization
+- Asset inventory generation
+- P&ID modernization projects
+- Data migration into asset management systems
+- AI-assisted engineering workflows
+- Searchable engineering documentation
+
+Official Python sample code for the [DigitalSketch.ai](https://digitalsketch.ai) P&ID digitization API.
+
+- Website: [digitalsketch.ai](https://digitalsketch.ai)
+- API base: [api.digitalsketch.ai](https://api.digitalsketch.ai)
+- API docs: [api.digitalsketch.ai/documentation](https://api.digitalsketch.ai/documentation)
+- Homepage (in this repo): open [`index.html`](./index.html) in a browser
+
+
 
 ## Quick Start
 
